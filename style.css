@@ -1,0 +1,61 @@
+body{
+	background: linear-gradient(to right, pink, purple);
+}
+image{
+	height:100px;
+	width:70px;
+}
+
+button{
+	color:pink;
+}
+
+h1{
+	color:white;
+	animation-name: Yashvi;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.container{
+	border:1px solid black ;
+width:75%;
+margin:0 auto;
+text-align: center;
+}
+
+
+@keyframes Yashvi{
+
+0%{
+left:0px;
+top:0px;
+background-color:red;
+}
+
+25%{
+left:200px;
+top:0px;
+background-color:yellow;
+}
+
+50%{
+left:200px;
+top:200px;
+background-color:blue;
+}	
+
+75%{
+left:0px;
+top:20px;
+background-color:green;
+}
+
+100%{
+left:0px;
+top:0px;
+background-color:red;
+}
+
+}
+
